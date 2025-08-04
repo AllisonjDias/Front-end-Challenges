@@ -24,7 +24,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://github.com/AllisonjDias/Front-end-Challenges)
-- Live Site URL: (https://results10.vercel.app/)
+- Live Site URL: (https://allison-results.vercel.app/)
 
 ## My process
 
@@ -36,7 +36,7 @@ I started by adding the structure of the website using HTML, i created a contain
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Responsive
+- Responsive Web Design
 
 ### What I Practice
 
