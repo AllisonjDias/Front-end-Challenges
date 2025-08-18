@@ -113,7 +113,7 @@ header h2 {
   right: 35px;
 }
 
-#summary h1 {
+#summary h2 {
     color: var(--Dark-gray-blue);
     font-size: 20px;
     font-weight: bold;
@@ -125,7 +125,7 @@ header h2 {
 #summary .results {
     display: grid;
     grid-template-columns: 1fr;
-    row-gap: 20px;
+    row-gap: 0.1rem;
     align-items: center;
     max-width: 300px;
     min-height: 300px;
@@ -278,11 +278,11 @@ button {
     border: none;
     border-radius: 25px;
     padding: 17px 90px;
-    align-self: flex-start;
+    align-self: center;
     font-size: 14px;
     font-weight: 600;
     position: relative;
-    top: 25px;
+    top: 50px;
     color: var(--Pale-blue);
 }
 
@@ -310,7 +310,6 @@ button:active {
      min-height: 400px;
      justify-self: center;
      justify-items: center;
-     margin-top: 10%;
 }
 
 #summary {
