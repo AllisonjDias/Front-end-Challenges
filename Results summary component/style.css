@@ -106,7 +106,7 @@ header h2 {
   flex-direction: column;
   width: 350px;
   height: 480px;
-  border-radius: 0 40px 40px 0px;
+  border-radius: 0 40px 40px 0;
   border-left: 20px;
   background-color: var(--White);
   position: relative;
@@ -150,6 +150,12 @@ header h2 {
 /* *attributes */
 
 /* .reaction */
+
+.attribution {
+    position: relative;
+    top: 30px;
+}
+
 #reaction {
     background-color: hsl(0, 100%, 67%, 0.08);
 }
@@ -274,7 +280,6 @@ header h2 {
 button {
     text-decoration: none;
     background-color: hsl(224, 30%, 27%);
-    color: white;
     border: none;
     border-radius: 25px;
     padding: 17px 90px;
@@ -314,8 +319,8 @@ button:active {
 
 #summary {
     width: 320px;
-    border-radius: 0 0px 40px 40px;
-    right: 0px;
+    border-radius: 0 0 40px 40px;
+    right: 0;
     bottom: 30px;
 }
 
